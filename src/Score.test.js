@@ -70,4 +70,26 @@ describe('Tennis Scorer', () => {
     game.player2Scores();
     expect(game.getScore()).toEqual("Advantage Player 2");
   });
+
+  it("deberia retornar 'Jugador 1 gana' cuando el Jugador 1 tiene 4 puntos y el Jugador 2 tiene 2", () => {
+    const game = new TennisScore();
+    game.player1Scores();
+    game.player1Scores();
+    game.player1Scores();
+    game.player1Scores();
+    game.player2Scores();
+    game.player2Scores();
+    expect(game.getScore()).toEqual("Player 1 wins");
+  });
+
+  it("deberia retornar 'Jugador 2 gana' cuando el Jugador 2 tiene 4 puntos y el Jugador 1 tiene 2", () => {
+    const game = new TennisScore();
+    game.player2Scores();
+    game.player2Scores();
+    game.player2Scores();
+    game.player2Scores();
+    game.player1Scores();
+    game.player1Scores();
+    expect(game.getScore()).toEqual("Player 2 wins");
+  });
 });
