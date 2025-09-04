@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "93e52a03a2519f8f63f96127ca0fa5e8bd69fe27",
     "author": "Mateo_DVE",
     "commit": {
       "date": "2025-09-04T01:39:46.000Z",
       "message": "Caso inicial love - love",
-      "url": "https://github.com/MateoDVE/IngSoft-TennisScore/commit/HEAD"
+      "url": "https://github.com/MateoDVE/IngSoft-TennisScore/commit/93e52a03a2519f8f63f96127ca0fa5e8bd69fe27"
     },
     "stats": {
       "total": 37,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo_DVE",
+    "commit": {
+      "date": "2025-09-04T02:07:07.000Z",
+      "message": "Implementacion del\n15-Love",
+      "url": "https://github.com/MateoDVE/IngSoft-TennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 14,
+      "deletions": 1,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 2,
     "failed_tests": 0,
     "conclusion": "success"
   }
