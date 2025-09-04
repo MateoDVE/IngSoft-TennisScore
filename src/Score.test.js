@@ -28,4 +28,11 @@ describe('Tennis Scorer', () => {
     expect(game.getScore()).toEqual("30-15");
   });
 
+  it("debería retornar '15-30' cuando el Jugador 1 anota una vez y el Jugador 2 anota dos veces", () => {
+    const game = new TennisScore();
+    game.player1Scores();
+    game.player2Scores();
+    game.player2Scores();
+    expect(game.getScore()).toEqual("15-30");
+  });
 });
