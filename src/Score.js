@@ -36,16 +36,16 @@ class TennisScore {
     if(this.player1Points === 3 && this.player2Points === 3) {
       return "Deuce"
     }
-    if(this.player1Points > 3 && this.player1Points === this.player2Points + 1) {
+    if(this.player1Points > 4 && this.player1Points === this.player2Points + 3) {
       return "Advantage Player 1";
     }
-    if(this.player2Points > 3 && this.player2Points === this.player1Points + 1) {
+    if(this.player2Points > 4 && this.player2Points === this.player1Points + 3) {
       return "Advantage Player 2";
     }
-    if(this.player1Points >= 4 && this.player1Points >= this.player2Points + 2) {
+    if(this.player1Points >= 5 && this.player1Points >= this.player2Points + 3) {
       return "Player 1 wins";
     }
-    if(this.player2Points >= 4 && this.player2Points >= this.player1Points + 2) {
+    if(this.player2Points >= 5 && this.player2Points >= this.player1Points + 3) {
       return "Player 2 wins";
     }
     return "Love-Love";

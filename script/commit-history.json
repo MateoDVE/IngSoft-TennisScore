@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b791debdd9e701ae68df33fd31040ae468fbd47d",
     "author": "Mateo_DVE",
     "commit": {
       "date": "2025-09-04T02:23:52.000Z",
       "message": "implementacion si uno de los jugadores gana",
-      "url": "https://github.com/MateoDVE/IngSoft-TennisScore/commit/HEAD"
+      "url": "https://github.com/MateoDVE/IngSoft-TennisScore/commit/b791debdd9e701ae68df33fd31040ae468fbd47d"
     },
     "stats": {
       "total": 28,
@@ -169,5 +169,24 @@
     "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo_DVE",
+    "commit": {
+      "date": "2025-09-04T02:33:56.000Z",
+      "message": "Correcion de errores en puntaje e implementacion del index y presenter",
+      "url": "https://github.com/MateoDVE/IngSoft-TennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 122,
+      "additions": 101,
+      "deletions": 21,
+      "date": "2025-09-04"
+    },
+    "coverage": 80,
+    "test_count": 10,
+    "failed_tests": 4,
+    "conclusion": "failure"
   }
 ]
