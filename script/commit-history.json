@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4ceab0cfb29d672cd2ed0e0e359b6605c1db261d",
     "author": "Mateo_DVE",
     "commit": {
       "date": "2025-09-04T02:20:42.000Z",
       "message": "implementacion del Advantage Player 1",
-      "url": "https://github.com/MateoDVE/IngSoft-TennisScore/commit/HEAD"
+      "url": "https://github.com/MateoDVE/IngSoft-TennisScore/commit/4ceab0cfb29d672cd2ed0e0e359b6605c1db261d"
     },
     "stats": {
       "total": 15,
@@ -129,6 +129,25 @@
     },
     "coverage": 94.74,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo_DVE",
+    "commit": {
+      "date": "2025-09-04T02:21:41.000Z",
+      "message": "implementacion del Advantage Player 2",
+      "url": "https://github.com/MateoDVE/IngSoft-TennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 15,
+      "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 95.24,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }
