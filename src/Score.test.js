@@ -35,4 +35,15 @@ describe('Tennis Scorer', () => {
     game.player2Scores();
     expect(game.getScore()).toEqual("15-30");
   });
+
+ it("debería retornar 'Deuce' cuando ambos jugadores anotan tres veces", () => {
+    const game = new TennisScore();
+    game.player1Scores(); 
+    game.player1Scores(); 
+    game.player1Scores(); 
+    game.player2Scores(); 
+    game.player2Scores(); 
+    game.player2Scores();
+    expect(game.getScore()).toEqual("Deuce");
+  });
 });

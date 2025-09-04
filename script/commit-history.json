@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b936a308a6b7e64f70b23eb886620770b9281b8e",
     "author": "Mateo_DVE",
     "commit": {
       "date": "2025-09-04T02:17:11.000Z",
       "message": "implementacion del 15-30",
-      "url": "https://github.com/MateoDVE/IngSoft-TennisScore/commit/HEAD"
+      "url": "https://github.com/MateoDVE/IngSoft-TennisScore/commit/b936a308a6b7e64f70b23eb886620770b9281b8e"
     },
     "stats": {
       "total": 10,
@@ -91,6 +91,25 @@
     },
     "coverage": 93.33,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo_DVE",
+    "commit": {
+      "date": "2025-09-04T02:18:29.000Z",
+      "message": "implementacion del Deuce",
+      "url": "https://github.com/MateoDVE/IngSoft-TennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 15,
+      "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 94.12,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }

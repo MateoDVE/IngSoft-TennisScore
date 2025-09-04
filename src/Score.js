@@ -32,6 +32,10 @@ class TennisScore {
     if (this.player1Points === 1 && this.player2Points === 2) {
       return "15-30";
     }
+
+    if(this.player1Points === 3 && this.player2Points === 3) {
+      return "Deuce"
+    }
     return "Love-Love";
   }
 }
