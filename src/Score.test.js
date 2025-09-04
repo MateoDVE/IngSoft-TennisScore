@@ -46,4 +46,16 @@ describe('Tennis Scorer', () => {
     game.player2Scores();
     expect(game.getScore()).toEqual("Deuce");
   });
+
+  it("debería retornar 'Ventaja Jugador 1' cuando el Jugador 1 tiene ventaja", () => {
+    const game = new TennisScore();
+    game.player1Scores();
+    game.player1Scores();
+    game.player1Scores();
+    game.player2Scores();
+    game.player2Scores();
+    game.player2Scores();
+    game.player1Scores();
+    expect(game.getScore()).toEqual("Advantage Player 1");
+  });
 });
